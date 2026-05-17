@@ -9,10 +9,10 @@ Factor models of the interest rate curve (Nelson-Siegel, Dynamic Nelson-Siegel v
 | File | Description |
 | --- | --- |
 | `MTH9877_Assignment1_GroupE.ipynb` | Main notebook covering Parts (A)-(E) |
-| `9877Assignment1_GroupE_report.pdf` | Written report (deliverable) |
-| `9877Assignment1_GroupE_slides.pdf` | Presentation slides |
-| `IR&C_Assignment1_2026.pdf` | Assignment handout |
-| `script.pdf` | Lecture-note excerpt for reference |
+| `MTH9877_Assignment1_GroupE_report.pdf` | Written report (deliverable) |
+| `MTH9877_Assignment1_GroupE_slides.pdf` | Presentation slides |
+| `assignment_handout.pdf` | Assignment handout (course-provided) |
+| `lecture_notes_excerpt.pdf` | Lecture-note excerpt for reference |
 | `feds200628.csv` | FRB / Gürkaynak-Sack-Wright Svensson parameters (input data) |
 | `requirements.txt` | Python dependencies |
 | `report/output/` | Figures saved by the notebook (created at runtime) |
