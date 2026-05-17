@@ -8,11 +8,12 @@ Factor models of the interest rate curve (Nelson-Siegel, Dynamic Nelson-Siegel v
 
 | File | Description |
 | --- | --- |
-| `9842HW1_GroupE withD 2.ipynb` | Main notebook covering Parts (A)-(E) |
+| `MTH9877_Assignment1_GroupE.ipynb` | Main notebook covering Parts (A)-(E) |
 | `9877Assignment1_GroupE_report.pdf` | Written report (deliverable) |
 | `9877Assignment1_GroupE_slides.pdf` | Presentation slides |
 | `IR&C_Assignment1_2026.pdf` | Assignment handout |
 | `script.pdf` | Lecture-note excerpt for reference |
+| `feds200628.csv` | FRB / Gürkaynak-Sack-Wright Svensson parameters (input data) |
 | `requirements.txt` | Python dependencies |
 | `report/output/` | Figures saved by the notebook (created at runtime) |
 
@@ -31,15 +32,13 @@ Factor models of the interest rate curve (Nelson-Siegel, Dynamic Nelson-Siegel v
    pip install -r requirements.txt
    ```
 
-3. **Download the FRB / Gürkaynak-Sack-Wright dataset.** The notebook reads daily NSS parameters from `feds200628.csv`. Download it from the Federal Reserve Board and place the file next to the notebook:
-   - https://www.federalreserve.gov/data/nominal-yield-curve.htm
-   - Save the CSV as `feds200628.csv` in the repository root.
-
-4. **Launch Jupyter and run the notebook top-to-bottom**
+3. **Launch Jupyter and run the notebook top-to-bottom**
    ```bash
-   jupyter notebook "9842HW1_GroupE withD 2.ipynb"
+   jupyter notebook MTH9877_Assignment1_GroupE.ipynb
    ```
-   Use *Kernel → Restart & Run All*. All plots render inline; figure copies are also written to `report/output/` (the directory must exist — it is included in the repo).
+   Use *Kernel → Restart & Run All*. All plots render inline; figure copies are written to `report/output/` (created at runtime by an early setup cell).
+
+   The input dataset `feds200628.csv` (FRB / Gürkaynak-Sack-Wright Svensson parameters, daily) is committed to the repo. The freshest copy can be re-downloaded from <https://www.federalreserve.gov/data/nominal-yield-curve.htm>.
 
 ## Notebook structure
 

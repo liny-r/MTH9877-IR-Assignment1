@@ -6,9 +6,6 @@ __pycache__/
 venv/
 env/
 
-# Data file is not committed — see README for the download link
-feds200628.csv
-
 # Generated figures (notebook saves to report/output/)
 report/output/*.pdf
 !report/output/.gitkeep
